@@ -1,0 +1,5 @@
+czmq (3.0.0-1ubuntu3) trusty; urgency=medium
+
+  * Initial release.
+
+ -- Martin Hamrle <martin.hamrle@monetas.net>  Thu, 08 Jan 2015 16:56:26 +0100

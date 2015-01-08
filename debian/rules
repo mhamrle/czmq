@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+override_dh_strip:
+	dh_strip --dbg-package=libczmq-dbg
+
+%:
+	dh $@ -Bbuild --parallel
+
+.PHONY: override_dh_strip
